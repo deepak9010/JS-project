@@ -1,6 +1,6 @@
 const blogEl = document.querySelector(".blog-els");
 const sponsorEl = document.querySelector(".sponsors-els")
-fetch("https://raw.githubusercontent.com/Tapish1511/Grant-Tech/main/posts.json").then(
+fetch("https://raw.githubusercontent.com/Deepak9010/Grant-Tech/main/posts.json").then(
     (response)=> response.json()
 ).then(
     (data)=>{
